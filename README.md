@@ -1,4 +1,4 @@
-# catproject
+# Dogsproject
 
 A new Flutter project.
 
