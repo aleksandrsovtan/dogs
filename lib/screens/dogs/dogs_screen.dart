@@ -1,11 +1,11 @@
-import 'package:catproject/bloc/likes/bloc.dart';
-import 'package:catproject/screens/dogs/hero_screen.dart';
-import 'package:catproject/screens/common/cached_image.dart';
+import 'package:dogsproject/bloc/likes/bloc.dart';
+import 'package:dogsproject/screens/dogs/hero_screen.dart';
+import 'package:dogsproject/screens/common/cached_image.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:catproject/bloc/dog_images/bloc.dart';
+import 'package:dogsproject/bloc/dog_images/bloc.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:lazy_load_scrollview/lazy_load_scrollview.dart';
 import 'package:like_button/like_button.dart';

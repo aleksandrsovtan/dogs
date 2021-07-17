@@ -1,10 +1,10 @@
-import 'package:catproject/bloc/auth/bloc.dart';
-import 'package:catproject/bloc/dog_facts/bloc.dart';
-import 'package:catproject/bloc/dog_images/bloc.dart';
-import 'package:catproject/bloc/likes/bloc.dart';
-import 'package:catproject/screens/home/home_page_guess.dart';
-import 'package:catproject/screens/home/home_screen_user.dart';
-import 'package:catproject/services/image_recognition.dart';
+import 'package:dogsproject/bloc/auth/bloc.dart';
+import 'package:dogsproject/bloc/dog_facts/bloc.dart';
+import 'package:dogsproject/bloc/dog_images/bloc.dart';
+import 'package:dogsproject/bloc/likes/bloc.dart';
+import 'package:dogsproject/screens/home/home_page_guess.dart';
+import 'package:dogsproject/screens/home/home_screen_user.dart';
+import 'package:dogsproject/services/image_recognition.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:firebase_core/firebase_core.dart';

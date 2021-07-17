@@ -1,6 +1,6 @@
-import 'package:catproject/screens/dogs/dogs_screen.dart';
-import 'package:catproject/screens/favorites/favorite_cats_page.dart';
-import 'package:catproject/screens/profile.dart/user_profile.dart';
+import 'package:dogsproject/screens/dogs/dogs_screen.dart';
+import 'package:dogsproject/screens/favorites/favorite_page.dart';
+import 'package:dogsproject/screens/profile.dart/user_profile.dart';
 import 'package:flutter/material.dart';
 
 class HomeScreenUser extends StatefulWidget {
@@ -30,7 +30,7 @@ class _HomeScreenUserState extends State<HomeScreenUser> {
         child: Scaffold(
           backgroundColor: Colors.orange[100],
           appBar: AppBar(
-            title: Text('Cats App'),
+            title: Text('Dogs App'),
             backgroundColor: Colors.orange,
             bottom: TabBar(
               onTap: (index) {
@@ -42,7 +42,7 @@ class _HomeScreenUserState extends State<HomeScreenUser> {
               indicatorColor: Colors.white,
               tabs: [
                 Tab(
-                  text: 'Cats',
+                  text: 'Dogs',
                 ),
                 Tab(
                   text: 'Favorites',

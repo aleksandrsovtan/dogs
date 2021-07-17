@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:catproject/services/dogs_api.dart';
+import 'package:dogsproject/services/dogs_api.dart';
 import 'package:flutter/material.dart';
 import 'package:meta/meta.dart';
 

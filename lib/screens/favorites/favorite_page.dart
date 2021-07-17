@@ -1,5 +1,5 @@
-import 'package:catproject/bloc/likes/bloc.dart';
-import 'package:catproject/screens/common/cached_image.dart';
+import 'package:dogsproject/bloc/likes/bloc.dart';
+import 'package:dogsproject/screens/common/cached_image.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
